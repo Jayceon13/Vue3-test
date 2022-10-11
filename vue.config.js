@@ -1,6 +1,10 @@
 module.exports = {
   //...
   optimization: {
-    splitChunks:  false,
+    splitChunks: {
+      cacheGroups: {
+        default: false,
+      },
+    },
   },
 };
