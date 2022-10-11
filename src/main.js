@@ -7,6 +7,8 @@ import store from '@/store';
 
 const app = createApp(App)
 
+console.log("Hello")
+
 components.forEach(component => {
     app.component(component.name, component)
 })
